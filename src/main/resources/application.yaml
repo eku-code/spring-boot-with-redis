@@ -1,8 +1,11 @@
 spring:
   main:
-    redis:
-      url: redis://localhost:6379
     autoconfigure:
       exclude:
         - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
         - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+redis:
+  host:
+    "192.168.99.100"
+  port:
+    6379
