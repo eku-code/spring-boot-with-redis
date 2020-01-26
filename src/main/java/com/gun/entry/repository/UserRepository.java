@@ -10,5 +10,4 @@ public interface UserRepository {
     Map<String, User> findAll();
     User findById(String id);
     void deleteById(String id);
-
 }
